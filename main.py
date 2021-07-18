@@ -3,7 +3,7 @@ import re
 from pathlib import Path
 from github import Github
 
-g = Github()
+g = Github(os.environ.get("GITHUB_TOKEN"))
 
 
 def repl_starcount(match):
