@@ -1,13 +1,10 @@
-name: "Python Container Action Template"
-description: "Get started with Python Container actions"
-author: "Jacob Tomlinson"
+name: "aweseom-stargazers"
+description: "Github Action that will update the stargazer count for all Github Repos found in an awesome-list Readme files"
+author: "Florian Roessler"
 inputs:
-  myInput:
-    description: "Input to use"
-    default: "world"
-outputs:
-  myOutput:
-    description: "Output from the action"
+  myReadme:
+    description: "alternative location of Readme file"
+    default: "readme.md"
 runs:
   using: "docker"
   image: "Dockerfile"
