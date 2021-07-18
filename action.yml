@@ -5,6 +5,11 @@ inputs:
   myReadme:
     description: "alternative location of Readme file"
     default: "readme.md"
+    required: False
+  NUM_REPLACEMENTS:
+    description: "number of replacements"
+    default: "0"
+    required: False
 runs:
   using: "docker"
   image: "Dockerfile"
