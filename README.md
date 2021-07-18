@@ -1,5 +1,7 @@
 # awesome-stargazers
 
+⚠️ This repo and action was created to learn about running Python Github actions. Before using it, please consider carefully if Github-⭐s are the right metric for your purpose! They can often be a better indicator of bookmarking or popularity rather than quality. ⚠️
+
 This is an action that adds the stargazer count to any github repository found in the README.md (configurable) file. It was created with the awesome-lists in mind. These lists have a ton of repositories in their Readme for various categories but often one only seeks the most popular ones from a specific topic. This action will run periodically and update the stargazer count via a PR.
 
 ## Usage
