@@ -1,4 +1,4 @@
-name: "aweseom-stargazers"
+name: "awesome-stargazers"
 description: "Github Action that will update the stargazer count for all Github Repos found in an awesome-list Readme files"
 author: "Florian Roessler"
 inputs:
