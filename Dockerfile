@@ -3,7 +3,7 @@ ADD . /app
 WORKDIR /app
 
 # We are installing a dependency here directly into our app source dir
-RUN pip install --target=/app PyGithub==1.55
+RUN pip install --target=/app PyGithub==1.55 cffi
 
 # A distroless container image with Python and some basics like SSL certificates
 # https://github.com/GoogleContainerTools/distroless
