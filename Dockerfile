@@ -6,4 +6,4 @@ WORKDIR /app
 RUN pip install PyGithub==1.55
 
 ENV PYTHONPATH /app
-CMD ["python", "main.py"]
+CMD ["python", "/app/main.py"]
